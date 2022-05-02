@@ -12,10 +12,10 @@ Library     shubham.py
 ${url}      https://staging.next.buyboxexperts.com/signin
 ${browser}  Chrome
 
-${Email}    sp.joshi@gmail.com
-${Password}     Shubh@96
+${Email}    sjoshi@buyboxexperts.com
+${Password}     BBEShubh@230597
 
-${Company_name}     Test_Breakdown
+${Company_name}     recurring3
 
 *** Keywords ***
 Open Browser To Login Page
@@ -46,6 +46,8 @@ Heading to req company tab
     sleep       3
     click element   ${searched_company}
     sleep       5
+    click element       //div[@class="left-details " and contains(text(), "Agreements")]
+    sleep       5
 
 Heading to statement of work
     click element   ${View_action}
@@ -68,7 +70,7 @@ Heading to statement of work
 
 All checkboxes should be selected by default
     click element       ${select_deselect}
-#    click element       ${select_deselect}
+    click element       ${select_deselect}
     checkbox should be selected     ${Expert}
     checkbox should be selected     ${plan}
     checkbox should be selected     ${call}

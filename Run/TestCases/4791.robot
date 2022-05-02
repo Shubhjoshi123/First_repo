@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    ../../Resources/4791R.robot
+Resource    ../Resources/4791R.robot
 
 *** Test Cases ***
 Breakdown std services
