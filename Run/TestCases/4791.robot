@@ -13,4 +13,3 @@ Breakdown std services
     Checking with HTML Table
     Checking Partial checkboxes
     Comparing contract table and checkbox values
-#    Test the services under agreement section

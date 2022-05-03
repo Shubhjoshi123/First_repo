@@ -7,10 +7,10 @@ Variables   LocatorsJ.py
 ${url}      https://staging.next.buyboxexperts.com/signin
 ${browser}  Chrome
 
-${Email}    sp.joshi@gmail.com
-${Password}     Shubh@96
+${Email}    sjoshi@buyboxexperts.com
+${Password}     BBEShubh@230597
 
-${Company_name}     TestRecuuring1
+${Company_name}     Rolex
 
 *** Keywords ***
 Open Browser To Login Page

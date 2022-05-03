@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    ../../Resources/4186R.robot
+Resource    ../Resources/4186R.robot
 
 
 

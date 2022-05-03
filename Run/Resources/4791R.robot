@@ -15,7 +15,7 @@ ${browser}  Chrome
 ${Email}    sjoshi@buyboxexperts.com
 ${Password}     BBEShubh@230597
 
-${Company_name}     recurring3
+${Company_name}     Marini Naturals
 
 *** Keywords ***
 Open Browser To Login Page
@@ -70,7 +70,7 @@ Heading to statement of work
 
 All checkboxes should be selected by default
     click element       ${select_deselect}
-    click element       ${select_deselect}
+#    click element       ${select_deselect}
     checkbox should be selected     ${Expert}
     checkbox should be selected     ${plan}
     checkbox should be selected     ${call}
